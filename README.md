@@ -4,7 +4,6 @@
 [![Release](http://img.shields.io/github/release/purescript-contrib/purescript-argonaut.svg)](https://github.com/purescript-contrib/purescript-argonaut/releases)
 [![Pursuit](http://pursuit.purescript.org/packages/purescript-argonaut/badge)](http://pursuit.purescript.org/packages/purescript-argonaut)
 [![Maintainer: garyb](https://img.shields.io/badge/maintainer-garyb-teal.svg)](http://github.com/garyb)
-[![Maintainer: thomashoneyman](https://img.shields.io/badge/maintainer-thomashoneyman-teal.svg)](http://github.com/thomashoneyman)
 
 [Argonaut](https://github.com/purescript-contrib/purescript-argonaut) is a collection of libraries for working with JSON in PureScript. This library bundles together the following:
 
