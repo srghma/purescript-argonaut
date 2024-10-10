@@ -1,5 +1,6 @@
 package:
   name: argonaut
+  description: PureScript's implementation of Argonaut
   publish:
     license: MIT
     version: 9.0.0
@@ -7,9 +8,9 @@ package:
       githubOwner: purescript-contrib
       githubRepo: purescript-argonaut
   dependencies:
-    - argonaut-codecs
-    - argonaut-core
-    - argonaut-traversals
+    - argonaut-codecs: ">=9.1.0 <10.0.0"
+    - argonaut-core: ">=7.0.0 <8.0.0"
+    - argonaut-traversals: ">=10.0.0 <11.0.0"
   test:
     main: Test.Main
     dependencies:
