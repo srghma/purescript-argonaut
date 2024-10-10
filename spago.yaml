@@ -1,0 +1,27 @@
+package:
+  name: argonaut
+  publish:
+    license: MIT
+    version: 9.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-argonaut
+  dependencies:
+    - argonaut-codecs
+    - argonaut-core
+    - argonaut-traversals
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+      - either
+      - foldable-traversable
+      - maybe
+      - prelude
+      - quickcheck
+      - strings
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
